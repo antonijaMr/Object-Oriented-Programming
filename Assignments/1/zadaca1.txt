@@ -1,0 +1,54 @@
+1. Zadatak
+
+Napisati program koji ce ispisati velicinu svakog primitivnog tipa varijable.
+Kreirati po jednu varijablu za svaki od primitivnih tipova, te ostaviti varijable 
+neinicijaliziranim. Ispisati njihovu velicinu u bajtima. Inicijalizirati varijable 
+i ponovo ispisati njihovu velicinu u bajtima. Da li ima razlike? Ako ne, zasto ne?
+
+2. Zadatak
+
+Testirati, zapisati i objasniti sta se desava u sljedecim slucajevima:
+
+Upotreba neinicijalizirane varijable
+Upotreba nedeklarisane varijable
+Modifikacija varijable koja je proglasena konstantnom
+Deklaracija varijable tipa auto bez inicijalizacije
+Deklaracija varijable sa modifikatorom const bez inicijalizacije
+
+U kojem slucaju necemo moci kompajlirati program.
+
+3. Zadatak
+	
+auto x = 2.0f*2.0*4;
+auto x = (int)(2.0f*2.0*4);
+auto x = 2.0f*(int)2.0*4;
+auto x = 2/10;
+auto x = 2.0/10*1.0f;
+auto x = 0;
+auto x = 42 + 0x2a + 052;
+
+Sta je tip varijable x u svakom slucaju i sta bi bio ispis (u svakom od slucaja) ukoliko bi varijablu x ispisali u terminal na sljedeci nacin:
+std::cout << x << std::endl;
+
+4. Zadatak
+
+6. Zadatak 
+Dopuniti potreban kod. Potrebno je:
+deklarisati globalnu varijablu imena a proizvoljnog tipa 
+deklarisati lokalnu varijablu imena b, koja ce pohraniti realni broj (bez inicijalizacije)
+dodijeliti varijabli b vrijednost 3.14
+ispisati vrijednost obje varijable
+kako bi glasila komanda za kompajliranje ovog programa ako zelimo da naziv izvrsnog fajla bude isti kao i vase ime 
+
+#include <iostream>
+
+int main()
+{
+
+	return 0;
+}
+
+
+
+
+
